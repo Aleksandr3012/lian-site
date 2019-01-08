@@ -14,6 +14,16 @@
   background-size: cover;
   height: 350px;
   width: 100%;
+  h1 {
+    text-transform: uppercase;
+    position: absolute;
+    color: white;
+    background-color: black;
+    line-height: 56px;
+    font-size: 33px;
+    padding: 0 70px;
+    margin-top: 115px;
+  }
   h2 {
     text-transform: uppercase;
     font-size: 13px;
@@ -22,16 +32,6 @@
   }
 }
 
-h1 {
-  text-transform: uppercase;
-  position: absolute;
-  color: white;
-  background-color: black;
-  line-height: 56px;
-  font-size: 33px;
-  padding: 0 70px;
-  margin-top: 115px;
-}
 
 .second-section {
   min-height: 453px;
