@@ -139,36 +139,54 @@ body {
     display: block;
     content: ''; }
 
-.awesome-team .team {
-  margin: auto;
-  width: 595px; }
-  .awesome-team .team h2 {
-    font-family: Roboto;
-    text-transform: uppercase;
-    font-size: 21px;
-    margin-bottom: 43px;
-    text-align: center;
-    color: #000000; }
-  .awesome-team .team p {
-    text-align: center;
-    font-family: "Roboto Light";
-    line-height: 30px;
-    font-size: 14px;
-    color: #777777;
-    margin-bottom: 67px; }
-.awesome-team .our-team .person-1 {
-  max-width: 358px;
-  height: 627px;
-  background-color: #ffffff;
-  margin-right: 29px; }
-.awesome-team .our-team .person-2 {
-  max-width: 358px;
-  height: 627px;
-  background-color: #ffffff;
-  margin-right: 29px; }
-.awesome-team .our-team .person-3 {
-  max-width: 358px;
-  height: 627px;
-  background-color: #ffffff; }
+.awesome-team {
+  margin-bottom: 76px; }
+  .awesome-team .team {
+    width: 595px;
+    margin: auto; }
+    .awesome-team .team h2 {
+      font-family: Roboto;
+      text-transform: uppercase;
+      font-size: 21px;
+      margin-bottom: 43px;
+      text-align: center;
+      color: #000000; }
+    .awesome-team .team p {
+      text-align: center;
+      font-family: "Roboto Light";
+      line-height: 30px;
+      font-size: 14px;
+      color: #777777;
+      margin-bottom: 67px; }
+  .awesome-team .our-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .awesome-team .our-team .person {
+      max-width: 358px;
+      background-color: #ffffff;
+      margin-right: 29px; }
+      .awesome-team .our-team .person:nth-last-of-type(1) {
+        margin-right: 0; }
+      .awesome-team .our-team .person div {
+        margin: 35px; }
+        .awesome-team .our-team .person div h2 {
+          color: #041608;
+          font-family: "Roboto Light";
+          letter-spacing: 0.4px;
+          font-size: 16px;
+          margin-bottom: 13px; }
+        .awesome-team .our-team .person div .place {
+          color: #777777;
+          letter-spacing: 0.4px;
+          font-size: 12px;
+          font-family: "Roboto - Bold";
+          margin-bottom: 24px; }
+        .awesome-team .our-team .person div .Description {
+          line-height: 24px;
+          font-family: "Roboto - Regular";
+          letter-spacing: 0.48px;
+          font-size: 12px;
+          color: #9c9c9c; }
 
 /*# sourceMappingURL=about.css.map */

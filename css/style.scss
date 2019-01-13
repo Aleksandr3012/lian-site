@@ -6,7 +6,7 @@
   margin: auto;
 }
 
-.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot{
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
   background-color: white;
   width: 15px;
   height: 15px;
@@ -14,18 +14,22 @@
   border-radius: 10px;
   border: solid 4px transparent;
 }
-.owl-nav{
+
+.owl-nav {
   display: none;
 }
-.owl-dots{
+
+.owl-dots {
   position: absolute;
   bottom: 56px;
   width: 100%;
   text-align: center;
 }
-.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.active{
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.active {
   border: solid 4px black;
 }
+
 .owl-carousel {
   position: relative;
   z-index: 0;
@@ -64,7 +68,7 @@
   border-bottom: 1px solid #e1e1e1;
   border-top: 1px solid #e1e1e1;
   margin-bottom: 29px;
-  ul{
+  ul {
     text-align: center;
     color: #444444;
     font-family: Roboto;
@@ -72,7 +76,7 @@
     font-weight: 700;
     line-height: 59px;
     letter-spacing: 1.05px;
-    li{
+    li {
       list-style-type: none;
       display: inline;
       text-transform: uppercase;
@@ -91,24 +95,26 @@
 
 .flex-container {
   display: flex;
-  margin: 30px;
-  flex-wrap: wrap;
-  //align-items: flex-start;
-  //align-content: flex-start;
-  align-self: flex-start;
+  margin-bottom: 30px;
+  flex-direction: row;
+  justify-content: space-between;
   a {
-
+    margin-bottom: 34px;
   }
 }
 
 .load-more {
-  margin: auto;
-  text-transform: uppercase;
-  font-size: 10px;
-  background-color: #959595;;
-  padding: 10px 24px;
-  color: #ffffff;
-  border: none;
+  text-align: center;
+  margin-bottom: 73px;
+  button {
+    text-transform: uppercase;
+    font-size: 10px;
+    background-color: #959595;;
+    padding: 10px 24px;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+  }
 }
 
 
